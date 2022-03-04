@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>SmartCity - Menu Principal</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jqm-flat-ui/jquery.mobile.flatui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/menuPrincipal.css" />
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>SmartCity</h1>
+        </div>
+
+        <div data-role="content" role="main" class="container-menu-principal">
+            <div class="ui-btn-b btnMenuPrincipal"><button id="btnCriarOcorrencia" data-icon="flat-plus" data-theme="b">Criar Ocorrência</button></div>
+            <div class="ui-btn-b btnMenuPrincipal"><button id="btnMinhasOcorrencias" data-icon="flat-heart" data-theme="b">Minhas Ocorrências</button></div>
+            <div class="ui-btn-b btnMenuPrincipal"><button id="btnOcorrenciasProximas" data-icon="flat-location" data-theme="b">Ocorrências Próximas</button></div>
+            
+            <a id="btnLogoffApp" class="ui-btn ui-btn-d ui-btn-icon-left ui-corner-all ui-icon-power btnMenuPrincipal">Sair</a>
+        </div>
+    </div>
+
+    <div class="smartcity-loader-container" style="display: none;">
+        <div class="smartcity-loader"></div>
+        Aguarde...
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/helpers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/menuPrincipal/menuPrincipal.controller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/menuPrincipal/menuPrincipal.app.js"></script>
+</body>
+</html>

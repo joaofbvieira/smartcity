@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "SmartCityMobileApp", "SmartCityMobileApp\SmartCityMobileApp.jsproj", "{A661744B-1C71-455F-B79B-0FBD14644A6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Android.ActiveCfg = Debug|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Android.Build.0 = Debug|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Android.Deploy.0 = Debug|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|iOS.ActiveCfg = Debug|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|iOS.Build.0 = Debug|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|iOS.Deploy.0 = Debug|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Android.ActiveCfg = Release|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Android.Build.0 = Release|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Android.Deploy.0 = Release|Android
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|iOS.ActiveCfg = Release|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|iOS.Build.0 = Release|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|iOS.Deploy.0 = Release|iOS
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{A661744B-1C71-455F-B79B-0FBD14644A6E}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CCD874C-DBC7-4FB6-9C90-9CA0DCF545B4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://joaofbvieira.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SmartCityMobileApp\\SmartCityMobileApp.jsproj
+		SccProjectName1 = SmartCityMobileApp
+		SccLocalPath1 = SmartCityMobileApp
+	EndGlobalSection
+EndGlobal

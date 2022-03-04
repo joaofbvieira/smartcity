@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  smartcity.wepapi:
+    image: smartcity.wepapi
+    build:
+      context: ./SmartCity.WepAPI
+      dockerfile: Dockerfile

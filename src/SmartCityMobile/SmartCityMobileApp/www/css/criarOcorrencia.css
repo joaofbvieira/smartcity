@@ -1,0 +1,101 @@
+﻿.btnFotografar {
+    background: #1abc9c;
+    border-color: #1abc9c;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    border-radius: .125em;
+    padding: .2em 2em;
+    cursor: pointer;
+    margin: 0 0 .3em 0;
+}
+
+    .btnFotografar > p {
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .btnFotografar:hover {
+        background: #20E0BA;
+        border-color: #20E0BA;
+    }
+
+.divInfoLocalizacao {
+    background: #f2f2f2;
+    border-color: #f2f2f2;
+    text-align: left;
+    color: #2c3e50;
+    font-size: 15px;
+    border-radius: .325em;
+    padding: .5em .5em;
+    margin: 0 0 .5em 0;
+}
+
+.divInfoLocalizacao > i {
+    font-size: 20px;
+    margin-right: .1em;
+}
+
+.divExibicaoFotoTelaCheia {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+}
+
+    .divExibicaoFotoTelaCheia > img {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 110;
+    }
+
+.divOpcaoImagem {
+    width: 50px;
+    height: 50px;
+    background: #0dc5c1;
+    color: #fff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 150;
+    position: absolute;
+    bottom: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+
+    .divOpcaoImagem:hover {
+        cursor: pointer;
+        background: #10efeb;
+    }
+
+.divOpcaoImagemEsquerda {
+    left: 30px;
+}
+
+.divOpcaoImagemDireita {
+    right: 30px;
+}
+
+.divOpcaoImagemCentro {
+    margin-left: 45%;
+}
+
+#divContainerFoto {
+    text-align: center;
+}
+
+#fotoTirada {
+    height: 250px;
+    width: auto;
+}

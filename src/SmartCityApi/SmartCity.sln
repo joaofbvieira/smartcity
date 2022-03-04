@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.WepAPI", "SmartCity.WepAPI\SmartCity.WepAPI.csproj", "{0A5A065E-31A0-4365-818B-D6DCF315E31D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EBECF893-438B-43AD-9E2E-8E307470EA08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.Data", "SmartCity.Data\SmartCity.Data.csproj", "{54D84681-870D-4ED7-AB57-4AA7B530478E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.Domain", "SmartCity.Domain\SmartCity.Domain.csproj", "{C46BCAE7-D054-4B96-8C25-68D5D8020B9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.Application", "SmartCity.Application\SmartCity.Application.csproj", "{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.ViewModel", "SmartCity.ViewModel\SmartCity.ViewModel.csproj", "{BBFF141A-034C-497D-A7E0-2A8E38C67653}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.IoC", "SmartCity.IoC\SmartCity.IoC.csproj", "{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{E21B1660-897F-4CF7-991E-51EA8FBFF792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{6A11FD0F-8352-401D-B805-F7B2070A39F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C9F1FF52-2D2F-4649-9AF9-49FD986A4F72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{8072C0EF-FFD3-4142-B9B2-EC848682446D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{02266A94-03A6-4B00-A930-91DF7E14D1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{AAEF543E-37BE-4908-9A49-37D09EE7714B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartCity.Data.XUnitTest", "SmartCity.Data.XUnitTest\SmartCity.Data.XUnitTest.csproj", "{7CEE1274-DA03-4C5B-87DF-07438D363AB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A5A065E-31A0-4365-818B-D6DCF315E31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5A065E-31A0-4365-818B-D6DCF315E31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5A065E-31A0-4365-818B-D6DCF315E31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5A065E-31A0-4365-818B-D6DCF315E31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBECF893-438B-43AD-9E2E-8E307470EA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBECF893-438B-43AD-9E2E-8E307470EA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBECF893-438B-43AD-9E2E-8E307470EA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBECF893-438B-43AD-9E2E-8E307470EA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D84681-870D-4ED7-AB57-4AA7B530478E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D84681-870D-4ED7-AB57-4AA7B530478E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D84681-870D-4ED7-AB57-4AA7B530478E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D84681-870D-4ED7-AB57-4AA7B530478E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46BCAE7-D054-4B96-8C25-68D5D8020B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46BCAE7-D054-4B96-8C25-68D5D8020B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46BCAE7-D054-4B96-8C25-68D5D8020B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46BCAE7-D054-4B96-8C25-68D5D8020B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFF141A-034C-497D-A7E0-2A8E38C67653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFF141A-034C-497D-A7E0-2A8E38C67653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFF141A-034C-497D-A7E0-2A8E38C67653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFF141A-034C-497D-A7E0-2A8E38C67653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEE1274-DA03-4C5B-87DF-07438D363AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEE1274-DA03-4C5B-87DF-07438D363AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEE1274-DA03-4C5B-87DF-07438D363AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEE1274-DA03-4C5B-87DF-07438D363AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A5A065E-31A0-4365-818B-D6DCF315E31D} = {E21B1660-897F-4CF7-991E-51EA8FBFF792}
+		{54D84681-870D-4ED7-AB57-4AA7B530478E} = {8072C0EF-FFD3-4142-B9B2-EC848682446D}
+		{C46BCAE7-D054-4B96-8C25-68D5D8020B9C} = {C9F1FF52-2D2F-4649-9AF9-49FD986A4F72}
+		{6AECBF2C-B41F-4631-8CBF-5B9F6D202D67} = {6A11FD0F-8352-401D-B805-F7B2070A39F3}
+		{BBFF141A-034C-497D-A7E0-2A8E38C67653} = {C9F1FF52-2D2F-4649-9AF9-49FD986A4F72}
+		{7E95E71E-1F02-4A5F-BC44-F0CD2A33F4EB} = {02266A94-03A6-4B00-A930-91DF7E14D1DE}
+		{7CEE1274-DA03-4C5B-87DF-07438D363AB6} = {AAEF543E-37BE-4908-9A49-37D09EE7714B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5DFA962-0A50-465A-A2A7-D74BD711829A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://joaofbvieira.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SmartCity.WepAPI\\SmartCity.WepAPI.csproj
+		SccProjectTopLevelParentUniqueName1 = SmartCity.sln
+		SccProjectName1 = SmartCity.WepAPI
+		SccLocalPath1 = SmartCity.WepAPI
+		SccProjectUniqueName2 = SmartCity.Data\\SmartCity.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = SmartCity.sln
+		SccProjectName2 = SmartCity.Data
+		SccLocalPath2 = SmartCity.Data
+		SccProjectUniqueName3 = SmartCity.Domain\\SmartCity.Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = SmartCity.sln
+		SccProjectName3 = SmartCity.Domain
+		SccLocalPath3 = SmartCity.Domain
+		SccProjectUniqueName4 = SmartCity.Application\\SmartCity.Application.csproj
+		SccProjectTopLevelParentUniqueName4 = SmartCity.sln
+		SccProjectName4 = SmartCity.Application
+		SccLocalPath4 = SmartCity.Application
+		SccProjectUniqueName5 = SmartCity.ViewModel\\SmartCity.ViewModel.csproj
+		SccProjectTopLevelParentUniqueName5 = SmartCity.sln
+		SccProjectName5 = SmartCity.ViewModel
+		SccLocalPath5 = SmartCity.ViewModel
+		SccProjectUniqueName6 = SmartCity.IoC\\SmartCity.IoC.csproj
+		SccProjectTopLevelParentUniqueName6 = SmartCity.sln
+		SccProjectName6 = SmartCity.IoC
+		SccLocalPath6 = SmartCity.IoC
+		SccProjectUniqueName7 = SmartCity.Data.XUnitTest\\SmartCity.Data.XUnitTest.csproj
+		SccProjectTopLevelParentUniqueName7 = SmartCity.sln
+		SccProjectName7 = SmartCity.Data.XUnitTest
+		SccLocalPath7 = SmartCity.Data.XUnitTest
+	EndGlobalSection
+EndGlobal

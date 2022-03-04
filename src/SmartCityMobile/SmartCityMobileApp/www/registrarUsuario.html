@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>Registrar</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jqm-flat-ui/jquery.mobile.flatui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <a data-rel="back" class="ui-link ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all">Voltar</a>
+            <h1>Registrar</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" data-icon="flat-man" class="ui-input-text" value="" placeholder="Nome" />
+            
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" data-icon="flat-man" class="ui-input-text" value="Joinville - SC" placeholder="Cidade" disabled />
+            <input type="hidden" name="cidade_id" id="cidade_id" value="1" disabled />
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" data-icon="flat-man" class="ui-input-text" value="" placeholder="E-mail" />
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="ui-input-text" value="" placeholder="Senha" />
+
+            <label for="confirma_senha">Confirmar Senha</label>
+            <input type="password" name="confirma_senha" id="confirma_senha" class="ui-input-text" value="" placeholder="Confirmar Senha" />
+
+            <a id="btnSalvar" class="ui-btn ui-btn-g ui-corner-all">Salvar</a>
+        </div>
+    </div>
+
+    <div class="smartcity-loader-container" style="display: none;">
+        <div class="smartcity-loader"></div>
+        Aguarde...
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/helpers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/registrarUsuario/registrarUsuario.service.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/registrarUsuario/registrarUsuario.controller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/registrarUsuario/registrarUsuario.app.js"></script>
+</body>
+</html>

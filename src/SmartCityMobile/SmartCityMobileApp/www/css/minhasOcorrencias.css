@@ -1,0 +1,24 @@
+﻿/*
+white-space: pre-line; >> p
+border-bottom: 1px solid #e5e5e5; >> li
+*/
+
+.ui-listview > li p {
+    white-space: pre-line;
+}
+
+li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ui-last-child {
+    border-bottom: 0px !important;
+}
+
+.ui-li-count {
+    background-color: #f2f2f2 !important;
+}
+
+.ui-listview {
+    margin: -1em -1em 1em -1em !important
+}

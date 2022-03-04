@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "D:\\TFS\\SmartCity\\Trunk\\Certificates\\smartcity.keystore",
+        "storePassword": "smart123",
+        "alias": "smartcity",
+        "password": "smart123",
+        "keystoreType": ""
+      }
+     }
+ }

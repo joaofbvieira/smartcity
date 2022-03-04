@@ -1,0 +1,93 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>Visualizar Ocorrência</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jqm-flat-ui/jquery.mobile.flatui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/visualizadorOcorrencia.css" />
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <a data-rel="back" class="ui-link ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all">Voltar</a>
+            <h1>Visualizar Ocorrência</h1>
+        </div>
+
+        <div role="main" class="ui-content divContainerVisualizadorOcorrencia">
+            <label for="data_hora">Data e Hora</label>
+            <input type="text" name="data_hora" id="data_hora" class="ui-input-text" value="" disabled />
+
+            <label for="complemento_informacoes">Complemento de informações</label>
+            <input type="text" name="complemento_informacoes" id="complemento_informacoes" class="ui-input-text" value="" disabled />
+
+            <label for="divLocalizacao">Local</label>
+            <div id="divLocalizacao" class="divInfoLocalizacao">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span id="pLocalizacao">Buscando endereço atual...</span>
+            </div>
+
+            <a id="btnVisualizarFoto" class="ui-btn ui-btn-a ui-btn-icon-left ui-corner-all ui-icon-camera">VisualizarFoto</a>
+            <a id="btnVotar" class="ui-btn ui-btn-g ui-btn-icon-left ui-corner-all ui-icon-star">Votar</a>
+            <a id="btnDenunciar" class="ui-btn ui-btn-d ui-btn-icon-left ui-corner-all ui-icon-alert">Denunciar</a>
+
+            <div id="modalDenuncia" style="display: none;">
+                <div id="formConfirmacaoDenuncia">
+                    <h1>Denunciar Ocorrência</h1>
+
+                    <div id="containerCamposDenuncia">
+                        <label for="motivoDenuncia">Motivo</label>
+                        <select name="motivoDenuncia" id="motivoDenuncia" data-native-menu="false" data-theme="a">
+                            <option value="0" select>Selecione uma opção</option>
+                            <option value="1">Não é verdadeira</option>
+                            <option value="2">Já foi atendida</option>
+                            <option value="9">Outro motivo</option>
+                        </select>
+
+                        <div id="outroMotivoContainer" style="display: none;">
+                            <label for="textoOutroMotivo">Informe o seu motivo</label>
+                            <input type="text" name="textoOutroMotivo" id="textoOutroMotivo" class="ui-input-text" value="" />
+                        </div>
+
+                        <a id="btnSalvarConfirmacaoDenuncia" class="ui-btn ui-btn-g ui-btn-icon-left ui-corner-all ui-icon-check">Confirmar</a>
+                        <a id="btnCancelarConfirmacaoDenuncia" class="ui-btn ui-btn-d ui-btn-icon-left ui-corner-all ui-icon-alert">Cancelar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="exibeFotoTirada" class="divContainerFotoTelaCheia" style="display: none;">
+                <a class="ui-btn ui-btn-d ui-btn-icon-left ui-corner-all ui-icon-delete" id="btnFecharImagem"></a>
+                <img id="imgFotoOcorrencia" src="" />
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <div class="smartcity-loader-container" style="display: none;">
+        <div class="smartcity-loader"></div>
+        Aguarde...
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="scripts/helpers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/visualizadorOcorrencia/visualizadorOcorrencia.storage.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/visualizadorOcorrencia/visualizadorOcorrencia.service.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/visualizadorOcorrencia/visualizadorOcorrencia.controller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/visualizadorOcorrencia/visualizadorOcorrencia.app.js"></script>
+</body>
+</html>

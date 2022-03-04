@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>Criar Ocorrência</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jqm-flat-ui/jquery.mobile.flatui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/criarOcorrencia.css" />
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <a data-rel="back" class="ui-link ui-btn-left ui-btn ui-icon-back ui-btn-icon-notext ui-shadow ui-corner-all">Voltar</a>
+            <h1>Criar Ocorrência</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <label for="divLocalizacao">Local</label>
+            <div id="divLocalizacao" class="divInfoLocalizacao">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span id="pLocalizacao">Buscando endereço atual...</span>
+            </div>
+            
+            <label for="complemento_informacoes">Complementar informações</label>
+            <input type="text" name="complemento_informacoes" id="complemento_informacoes" class="ui-input-text" value="" placeholder="Complementar informações" />
+
+            <div id="divFotografarOcorrencia" class="btnFotografar">
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <p>Tirar foto</p>
+            </div>
+
+            <div id="divContainerFoto" style="display: none;">
+                <img id="fotoTirada" src="" />
+            </div>
+
+            <a id="btnSalvarOcorrencia" class="ui-btn ui-btn-g ui-corner-all">Salvar</a>
+        </div>
+    </div>
+
+    <div class="smartcity-loader-container" style="display: none;">
+        <div class="smartcity-loader"></div>
+        Aguarde...
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCKNjFUHUVaRe9HC9lXAyVrLb4Ty1YZ_jQ" ></script>
+    
+    <script type="text/javascript" charset="utf-8" src="scripts/helpers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/criarOcorrencia/criarOcorrencia.service.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/criarOcorrencia/criarOcorrencia.controller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/criarOcorrencia/criarOcorrencia.app.js"></script>
+</body>
+</html>

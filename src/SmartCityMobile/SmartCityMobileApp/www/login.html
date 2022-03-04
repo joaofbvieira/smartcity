@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>Login - SmartCity</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jqm-flat-ui/jquery.mobile.flatui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>SmartCity</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div class="container-logo-smartcity-login">
+                <div class="logo-smartcity-login"></div>
+            </div>
+
+            <label for="email_login">E-mail</label>
+            <input type="email" name="email_login" id="email_login" data-icon="flat-man" class="ui-input-text" value="" placeholder="E-mail" />
+            
+            <label for="senha_login">Senha</label>
+            <input type="password" name="senha_login" id="senha_login" class="ui-input-text" value="" placeholder="Senha" />
+            
+            <div class="ui-checkbox">
+                <input type="checkbox" name="chkLembrarDados" data-theme="c" id="chkLembrarDados" checked="checked">
+                <label for="chkLembrarDados" data-corners="true" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-icon="checkbox-on" data-theme="c" data-mini="false" class="ui-last-child ui-checkbox-on ui-btn ui-btn-corner-all ui-fullsize ui-btn-icon-left ui-btn-up-c">
+                    <span class="ui-btn-inner">
+                        <span class="ui-btn-text">Lembrar meus dados de login</span>
+                        <span class="ui-icon ui-icon-checkbox-on ui-icon-shadow">&nbsp;</span>
+                    </span>
+                </label>
+            </div>
+
+            <label for="ip_servidor">Servidor</label>
+            <input type="text" name="ip_servidor" id="ip_servidor" class="ui-input-text" value="http://172.20.10.5:9010" placeholder="IP do Servidor" />
+
+
+            <a id="btnAutenticar" class="ui-btn ui-btn-g ui-corner-all">Acessar</a>
+
+            <a id="btnRegistrar" class="ui-btn ui-btn-b ui-corner-all">Registrar</a>
+
+            <p class="container-linkResetSenha">
+                <a href="" id="linkResetSenha">Não consegue acessar a sua conta?</a>
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="smartcity-loader-container" style="display: none;">
+        <div class="smartcity-loader"></div>
+        Aguarde...
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/helpers.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/login/login.service.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/login/login.controller.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/login/login.app.js"></script>
+</body>
+</html>
